@@ -1,0 +1,32 @@
+package Circle;
+
+public class Circle2D {
+	
+	public double x;
+	public double y;
+	public double radius;
+	public double areaOfCircle;
+	return perimeterOfCircle;
+	
+	public Circle2D(double x1, double y1) {
+		x1 = x;
+		y1 = y;
+	}
+	
+	public double getRadius() {
+		return radius;
+	}
+	
+	public void setRadius(double radii) {
+		radius = radii;
+	}
+	
+	public double getArea() {
+		return areaOfCircle;
+	}
+	
+	public double getPerimeter() {
+		return perimeterOfCircle;
+	}
+	
+}

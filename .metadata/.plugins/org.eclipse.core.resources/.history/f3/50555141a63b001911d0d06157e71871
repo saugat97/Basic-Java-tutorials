@@ -1,0 +1,13 @@
+package Circle;
+
+public class Circle2D {
+	
+	public double x = 0;
+	public double y = 0;
+	
+	public Circle2D(double x1, double y1) {
+		x1 = x;
+		y1 = y;
+	}
+
+}

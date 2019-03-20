@@ -1,0 +1,16 @@
+package TimeClassPackage;
+
+import java.util.Scanner;
+
+public class MainTimeClass {
+	public static void main (String[] args) {
+		TimeClass object = new TimeClass();
+		Scanner input = new Scanner(System.in);
+		System.out.println("Enter the hour: ");
+	
+		
+		object.setTime(2,3,24);
+		System.out.println(object.toMilitary());
+		
+	}
+}
